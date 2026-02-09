@@ -1,0 +1,27 @@
+img{
+    width: 150px;
+}
+@keyframes arrow {
+
+    0%{left:0px;transform: scaleX(1);translate: 0;rotate: y;
+    }
+    
+    50%{left:1400px;transform: scaleX(1);translate: 0;rotate: y;
+    }
+    51%{left:1400px;transform: scaleX(-1);translate: 0;rotate: y;
+    }
+ 
+
+    100%{left:0px;transform: scaleX(-1);translate: 0;rotate: y;
+    }
+
+
+
+}
+.arrow{
+    position: relative; 
+    animation: arrow 4s linear infinite;
+    
+    
+}
+
